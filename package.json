@@ -1,0 +1,35 @@
+{
+  "name": "hackathon-template",
+  "version": "1.0.0",
+  "description": "Boilerplate to quickly start a web app based on Hyperledger Fabric",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/abnamro/hackathon-template.git"
+  },
+  "keywords": [
+    "hyperledger",
+    "blockchain",
+    "fabric",
+    "nodejs",
+    "hfc"
+  ],
+  "logs": "docker logs -f $(docker ps -aq | head -n 1)",
+  "author": "Tim Blankers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/abnamro/hackathon-template/issues"
+  },
+  "homepage": "https://gitlab.com/abnamro/hackathon-template#README",
+  "dependencies": {
+    "express": "^4.14.0",
+    "hfc": "^0.6.1",
+    "debug": "~2.2.0",
+    "fs-extra": "^0.30.0",
+    "winston": "^2.2.0"
+  }
+}
